@@ -1,0 +1,27 @@
+Interpreted Assembly Language
+
+Line	OP	R	L	M
+0	jmp	0	0	15	
+1	jmp	0	0	2	
+2	inc	0	0	5	
+3	lod	0	0	3	
+4	sto	0	-1	2	
+5	lod	0	0	3	
+6	lit	1	0	4	
+7	sub	0	0	1	
+8	sto	0	0	3	
+9	lod	0	0	3	
+10	lit	1	0	5	
+11	eql	0	0	1	
+12	jpc	0	0	15	
+13	lit	1	0	6	
+14	sto	1	0	2	
+15	inc	0	0	6	
+16	sio	0	0	3	
+
+Execution of Program:
+
+Initial Values				pc	bp	sp
+0	jmp	0	0	15	15	1	4	0	0	0	0	
+15	inc	0	0	6	16	1	10	0	0	0	0	0	0	0	0	0	0	
+16	sio	0	0	3	17	1	10	0	0	0	0	0	0	0	0	0	0	
