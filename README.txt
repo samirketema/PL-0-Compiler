@@ -4,11 +4,11 @@ COP 3402 - Systems Software
 _______________________________________________________________
 
 
-To compile the Pl/0 Compiler in Eustis (using gcc):
+To compile the Pl/0 Compiler using gcc:
 
 	gcc -o compiler compiler.c -lm
 
-To run the PL/0 Compiler in Eustis, replace the "input.txt" with any input file you wish:
+To run the PL/0 Compiler, replace the "input.txt" with any input file you wish:
 
 	./compiler
 
